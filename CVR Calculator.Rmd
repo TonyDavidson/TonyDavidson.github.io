@@ -2,13 +2,18 @@
 
 CardioVascular Risk 
 ========================================================
+
+
 ![picture of heart](images/heart.jpg)
 
 author: Tony Davidson
 
 date: `r format (Sys.Date(),format="%B %d %Y")`
 
-  
+output:
+  ioslides_presentation:
+    logo: PenRose-01
+    
 What is Cardio Vascular Disease?
 ========================================================
 transition:rotate
